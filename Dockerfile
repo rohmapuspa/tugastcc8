@@ -6,7 +6,7 @@ RUN apk add --update nginx && \
 COPY files/nginx.conf /etc/nginx/nginx.conf
 COPY files/default.conf /etc/nginx/conf.d/default.conf
 ADD files/index.html /usr/share/nginx/
-ADD files/rohma.jpg /usr/share/nginx/
+ADD files/rohma.JPG /usr/share/nginx/
 
 EXPOSE 80/tcp
 
